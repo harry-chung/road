@@ -56,3 +56,6 @@ ax.set_title(f'중앙로 시도별 분포 (전체 {total:,}건)', fontproperties
 plt.tight_layout()
 plt.savefig('C:/test/중앙로_시도별분포.png', dpi=150, bbox_inches='tight')
 print('저장 완료: C:/test/중앙로_시도별분포.png')
+
+from feedback import prompt_feedback
+prompt_feedback('chart')

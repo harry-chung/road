@@ -117,5 +117,8 @@ ax_tbl.text(col_x[0], y_total, '합계', fontproperties=fp(10), fontweight='bold
 ax_tbl.text(col_x[1] + 0.12, y_total, f'{total:,}', fontproperties=fp(10), fontweight='bold', va='center', ha='right')
 ax_tbl.set_title('동별 건수', fontproperties=fp(13), pad=10)
 
+from feedback import prompt_feedback
+prompt_feedback('dong_map')
+
 plt.savefig('C:/test/금천구_벚꽃로_동별지도.png', dpi=150, bbox_inches='tight', facecolor='white')
 print('저장 완료: C:/test/금천구_벚꽃로_동별지도.png')

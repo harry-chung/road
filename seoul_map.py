@@ -119,3 +119,6 @@ ax_tbl.set_title('구별 건수', fontproperties=fp(13), pad=10)
 
 plt.savefig('C:/test/서울_벚꽃로_구별지도.png', dpi=150, bbox_inches='tight', facecolor='white')
 print('저장 완료: C:/test/서울_벚꽃로_구별지도.png')
+
+from feedback import prompt_feedback
+prompt_feedback('seoul_map')

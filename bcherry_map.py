@@ -117,3 +117,6 @@ ax_tbl.set_title('시도별 건수', fontproperties=fp(13), pad=10)
 
 plt.savefig('C:/test/벚꽃_시도별지도.png', dpi=150, bbox_inches='tight', facecolor='white')
 print('저장 완료: C:/test/벚꽃_시도별지도.png')
+
+from feedback import prompt_feedback
+prompt_feedback('bcherry_map')

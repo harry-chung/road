@@ -108,3 +108,6 @@ make_map('중앙로', 'Blues', '#EEF4FB', 'C:/test/중앙로_시도별지도.png
 
 # 벚꽃로 (핑크)
 make_map('벚꽃로', 'RdPu', '#FDF0F5', 'C:/test/벚꽃로_시도별지도.png')
+
+from feedback import prompt_feedback
+prompt_feedback('map_chart')
