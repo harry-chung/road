@@ -1,0 +1,13 @@
+# Large data files
+TN_SPRD_RDNM.txt
+korea_sido.json
+
+# Generated output images
+*.png
+
+# PDF
+*.pdf
+
+# Python cache
+__pycache__/
+*.pyc
